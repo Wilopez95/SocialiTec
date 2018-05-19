@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.wilop.socialitec">
 
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -31,7 +34,8 @@
             android:label="@string/title_activity_muro"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name=".Directorio" />
-        <activity android:name=".Horario_Bus"></activity>
+        <activity android:name=".Horario_Bus" />
+        <activity android:name=".Horario_Tren"></activity>
     </application>
 
 </manifest>
