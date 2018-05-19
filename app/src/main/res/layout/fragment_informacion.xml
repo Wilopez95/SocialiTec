@@ -19,27 +19,27 @@
             android:src="@drawable/banner" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/horario_bus"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
             android:layout_marginTop="50dp"
             android:backgroundTint="@color/colorPrimaryDark"
-            android:textColor="@android:color/background_light"
             android:text="Horario de buses"
+            android:textColor="@android:color/background_light"
             tools:text="Horario de buses" />
 
         <Button
-            android:id="@+id/button3"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:textColor="@android:color/background_light"
-            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/horario_tren"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/colorPrimaryDark"
             android:text="Horario de trenes"
+            android:textColor="@android:color/background_light"
             tools:text="Horario de buses" />
 
         <Button
@@ -55,15 +55,16 @@
             tools:text="Ubicación" />
 
         <Button
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:textColor="@android:color/background_light"
-            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/directorio"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/colorPrimaryDark"
             android:text="Directorio"
-            tools:text="Directorio"/>
+            android:textColor="@android:color/background_light"
+            tools:text="Directorio" />
 
         <Button
             android:id="@+id/button5"
